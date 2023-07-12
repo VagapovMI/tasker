@@ -4,8 +4,7 @@
       <h3 style="color:white">{{ $props.title }}</h3>
     </div>
     <div style="display: block;">
-      <input id="name" class="inputStyle" style="margin-left: 0.5rem" type="text" placeholder="Номер плана">
-      <button class ="butStyle" @click="def=!def" >Поиск</button>
+      <input id="name" class="inputStyle" style="margin-left: 0.5rem" type="text">
     </div>
 
   </div>
@@ -42,7 +41,7 @@ export default {
   border: solid grey 1px;
   border-radius: 2rem;
   padding: 1rem;
-  background: cadetblue;
+  background: slategray;
   background-size: 100%;
   transition: 1s;
 }
@@ -53,6 +52,6 @@ export default {
 .inputStyle{
   border: red 1rem;
   border-radius: 0.2rem;
-  background-color: darkseagreen;
+  background-color: antiquewhite;
 }
 </style>
